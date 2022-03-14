@@ -18,8 +18,6 @@ function setup() {
   intText();
   fortBall();
   console.log(sins[int(random(sins.length))]);
-
-
 }
 
 function draw() {
