@@ -1,6 +1,6 @@
 let angle = 6.1;
-let angleV = 0;
-let angleA = 0;
+let angleV = 1;
+let angleA = 1;
 
 let angleRotate = 0.0;
 function setup() {
@@ -14,7 +14,7 @@ let holdA = 0;
 function mousePressed() {
   angle = TWO_PI+ createVector(mouseX-200, mouseY-200).heading();
   holdA = angle + TWO_PI;
-  angleV = 10;
+  angleV = 30;
 }
 function mouseDragged() {
   angle = TWO_PI + createVector(mouseX-200, mouseY-200).heading();
@@ -22,7 +22,7 @@ function mouseDragged() {
 
 function mouseReleased() {
   let newAngle = TWO_PI+ createVector(mouseX-200, mouseY-200).heading();
-  angleV = -1*(newAngle-holdA) * 0.05;
+  angleV = -1*(newAngle-holdA) * 0.10;
 }
 
 function draw() {
@@ -99,5 +99,5 @@ function draw() {
 
   angle += angleV;
   // angleV += angleA;
-  angleV *= 0.98;
+  angleV *= 0.99;
 }
