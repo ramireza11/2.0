@@ -64,6 +64,14 @@ function draw() {
   textSize(30);
   text('PRIDE', -180, -35);
   
+  fill(0)
+  textSize(20);
+  text('push the button "push" to spin wheel', -155, -220);
+  
+  fill(0)
+  textSize(20);
+  text('SPIN TO KNOW WHAT SIN YOU ARE', -160, 230);
+  
   let i = 0;
   for (let a = 0; a < TWO_PI; a += PI / 4) {
     noFill();
