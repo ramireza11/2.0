@@ -2,6 +2,12 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.img-seven {
+  width: 450px;
+}
+
+
 canvas {
   display: block;
 }

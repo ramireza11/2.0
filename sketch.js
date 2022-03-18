@@ -2,9 +2,15 @@ let angle = 6.1;
 let angleV = 1;
 let angleA = 1;
 
+var canvas;
+
 let angleRotate = 0.0;
+
 function setup() {
-  createCanvas(500, 500);
+  canvas = createCanvas(500, 500);
+  canvas.position(430,130);
+  bgcolor = color(0);
+  createP ('');
   angleMode(RADIANS);
 
 }
@@ -71,7 +77,6 @@ function draw() {
   fill(0);
   textSize(20);
   text('TO KNOW WHAT SIN YOU ARE', -140, 230);
-
 
   let i = 0;
   for (let a = 0; a < TWO_PI; a += PI / 4) {
