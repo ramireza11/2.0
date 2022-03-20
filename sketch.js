@@ -1,7 +1,6 @@
 let angle = 6.1;
 let angleV = 1;
 let angleA = 1;
-
 var canvas;
 
 let angleRotate = 0.0;
@@ -13,9 +12,9 @@ function setup() {
   createP ('');
   angleMode(RADIANS);
 
-}
 
 let holdA = 0;
+}
 
 function mousePressed() {
   angle = TWO_PI+ createVector(mouseX-200, mouseY-200).heading();
