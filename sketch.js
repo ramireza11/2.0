@@ -7,7 +7,7 @@ let angleRotate = 0.0;
 
 function setup() {
   canvas = createCanvas(500, 500);
-  canvas.position(430,130);
+  canvas.position(900,160);
   bgcolor = color(0);
   createP ('');
   angleMode(RADIANS);

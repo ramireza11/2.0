@@ -8,26 +8,27 @@ html, body {
 }
 
 h1{
-  animation: type 3s steps(35);
+  animation: type 3s steps(55);
   overflow: hidden;
   white-space: nowrap;
   font-family: consolas;
   border-right: 4px solid white;
-  width: 35ch;
+  width: 55ch;
 }
 @keyframes type {
   0% {
     width: 0ch;
   }
   100% {
-    wdith: 22ch;
+    wdith: 55ch;
   }
 }
 
 h2{
-  color: white;
+  color: grey;
   font-size: 30px;
   font-family: URW Chancery L, cursive;
+  text-decoration: underline;
 }
 h3{
   color: white;
@@ -43,7 +44,7 @@ h5{
 }
 h6{
   color: white;
-  font-size: 20px
+  font-size: 20px;
 }
 h7{
   color: white;
@@ -57,7 +58,8 @@ h7{
 }
 p2{
   color: white;
-  font-size:20px
+  font-size:30px
+  font-family: Arial, sans-serif;
 }
 
 
