@@ -7,6 +7,58 @@ html, body {
   width: 450px;
 }
 
+h1{
+  animation: type 3s steps(35);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 4px solid white;
+  width: 35ch;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    wdith: 22ch;
+  }
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  font-family: URW Chancery L, cursive;
+}
+h3{
+  color: white;
+  font-size: 20px
+}
+h4{
+  color: white;
+  font-size: 20px;
+}
+h5{
+  color: white;
+  font-size: 20px;
+}
+h6{
+  color: white;
+  font-size: 20px
+}
+h7{
+  color: white;
+  font-size: 20px
+}
+ p {
+  color: white;
+  font-size:20px
+}
+p2{
+  color: white;
+  font-size:20px
+}
+
+
 
 canvas {
   display: block;
