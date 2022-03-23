@@ -62,8 +62,27 @@ p2{
   font-family: Arial, sans-serif;
 }
 
+a{
+  display: grid;
+  height: 80;
+  wdith: 250px;
+  background: grey;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1000;
+  bottom: 0;
+  place-items: center;
+  font-family: Marker Felt, fantasy;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 7px;
+  border-radius: 5px;
 
 
+}
 canvas {
   display: block;
 }
